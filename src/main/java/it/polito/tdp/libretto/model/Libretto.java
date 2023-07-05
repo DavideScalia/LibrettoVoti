@@ -25,6 +25,7 @@ public class Libretto {
 		return this.voti.add(v);
 	}
 
+	//inizio metodo stampa punto 2
 	public void stampa() {
 		for (Voto v : this.voti) {
 			System.out.println(v);
@@ -46,4 +47,11 @@ public class Libretto {
 				System.out.println(v);
 		}
 	}
+	//fine metodo stampa punto 2
+	
+	//inizio punto 3 metodo ricerca
+	
+	/*public Voto cercaVotoPerNome (String corso) {
+		for (Voto v: this.voti)
+	}*/
 }
